@@ -1083,6 +1083,9 @@
       <AnalysisUIOptions />
     </option>
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="04f770f6-013b-4ca8-a8a2-e1c392f8c8de" name="Default" comment="" />

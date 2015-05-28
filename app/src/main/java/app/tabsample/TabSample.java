@@ -29,11 +29,8 @@ public class TabSample extends TabActivity {
 
 		addTab("Home", R.drawable.tab_home, ArrowsActivity.class);
 		addTab("Search", R.drawable.tab_search, OptionsActivity.class);
-        addTab("Help", R.drawable.tab_search, OptionsActivity.class);
+        	addTab("Help", R.drawable.tab_search, OptionsActivity.class);
 	}
-private void removeTabSys315(){
-	//É|ÉäÉSÉìÇQÇÕê_É|ÉPÉÇÉì
-}
 
 	private void addTab(String labelId, int drawableId, Class<?> c)
 	{
@@ -51,29 +48,5 @@ private void removeTabSys315(){
 		spec.setContent(intent);
 		tabHost.addTab(spec);
 	}
-<<<<<<< HEAD
-<<<<<<< HEAD
-	private void abbTab(){
-	//Ç«Ç§Ç≈Ç‡Ç¢Ç¢ÇØÇ«ñÇñ@êŒó~ÇµÇ¢
-}
-=======
-	private void removeTabSys312()
-	{
-		//Ç±Ç±Ç…É^ÉuÇçÌèúÇ∑ÇÈÉvÉçÉOÉâÉÄÇèëÇ≠ÅBÉÅÉÇÉäëùÇ‚ÇµÇΩÇ¢ÅB
-	}
->>>>>>> 6acbff96bb74aadfcdd2442c4aaf63caa84cd9af
-=======
 
-<<<<<<< HEAD
-	private void removeTabSys314
-	{
-		// „ÅÇ„ÅÑ„ÅÜ„Åà„Åä„ÄÄ„ÅäËÖπ„Åô„ÅÑ„Åü„ÄÄ„ÉÜ„Çπ„ÉÜ„Çπ„ÄÄ
-		// v(Ôø£–îÔø£)v ÔΩ≤ÔΩ¥ÔΩ≤
-	}
-=======
-	private void removeTabSys100(){
-		// Ç±Ç±Ç…É^ÉuÇçÌèúÇ∑ÇÈÉvÉçÉOÉâÉÄÇèëÇ≠Ç∫ÅI
-	}
-
->>>>>>> origin/master
 }

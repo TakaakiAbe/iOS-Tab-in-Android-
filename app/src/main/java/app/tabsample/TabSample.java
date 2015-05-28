@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 
 /**
- * @author Tanaka
+ * @author Ikeuchi
  *
  */
 public class TabSample extends TabActivity {
@@ -31,6 +31,9 @@ public class TabSample extends TabActivity {
 		addTab("Search", R.drawable.tab_search, OptionsActivity.class);
         addTab("Help", R.drawable.tab_search, OptionsActivity.class);
 	}
+private void removeTabSys315(){
+	//ポリゴン２は神ポケモン
+}
 
 	private void addTab(String labelId, int drawableId, Class<?> c)
 	{
@@ -48,4 +51,9 @@ public class TabSample extends TabActivity {
 		spec.setContent(intent);
 		tabHost.addTab(spec);
 	}
+
+	private void removeTabSys100(){
+		// ここにタブを削除するプログラムを書くぜ！
+	}
+
 }

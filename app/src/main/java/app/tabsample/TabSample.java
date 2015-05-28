@@ -16,7 +16,7 @@ import android.widget.TextView;
  */
 public class TabSample extends TabActivity {
 	/** Called when the activity is first created. */
-	
+
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
@@ -26,7 +26,7 @@ public class TabSample extends TabActivity {
 	{
 		addTab("Home", R.drawable.tab_home, ArrowsActivity.class);
 		addTab("Search", R.drawable.tab_search, OptionsActivity.class);
-		
+
 		addTab("Home", R.drawable.tab_home, ArrowsActivity.class);
 		addTab("Search", R.drawable.tab_search, OptionsActivity.class);
         addTab("Help", R.drawable.tab_search, OptionsActivity.class);
@@ -39,21 +39,35 @@ private void removeTabSys315(){
 	{
 		TabHost tabHost = getTabHost();
 		Intent intent = new Intent(this, c);
-		TabHost.TabSpec spec = tabHost.newTabSpec("tab" + labelId);	
-		
+		TabHost.TabSpec spec = tabHost.newTabSpec("tab" + labelId);
+
 		View tabIndicator = LayoutInflater.from(this).inflate(R.layout.tab_indicator, getTabWidget(), false);
 		TextView title = (TextView) tabIndicator.findViewById(R.id.title);
 		title.setText(labelId);
 		ImageView icon = (ImageView) tabIndicator.findViewById(R.id.icon);
 		icon.setImageResource(drawableId);
-		
+
 		spec.setIndicator(tabIndicator);
 		spec.setContent(intent);
 		tabHost.addTab(spec);
 	}
+<<<<<<< HEAD
+	private void removeTabSys312()
+	{
+		//‚±‚±‚Éƒ^ƒu‚ðíœ‚·‚éƒvƒƒOƒ‰ƒ€‚ð‘‚­Bƒƒ‚ƒŠ‘‚â‚µ‚½‚¢B
+	}
+=======
 
+<<<<<<< HEAD
+	private void removeTabSys314
+	{
+		// ã‚ã„ã†ãˆãŠã€€ãŠè…¹ã™ã„ãŸã€€ãƒ†ã‚¹ãƒ†ã‚¹ã€€
+		// v(ï¿£Ð”ï¿£)v ï½²ï½´ï½²
+	}
+=======
 	private void removeTabSys100(){
 		// ‚±‚±‚Éƒ^ƒu‚ðíœ‚·‚éƒvƒƒOƒ‰ƒ€‚ð‘‚­‚ºI
 	}
 
+>>>>>>> origin/master
 }

@@ -48,4 +48,7 @@ public class TabSample extends TabActivity {
 		spec.setContent(intent);
 		tabHost.addTab(spec);
 	}
+	private void abbTab(){
+	//‚Ç‚¤‚Å‚à‚¢‚¢‚¯‚Ç–‚–@Î—~‚µ‚¢
+}
 }

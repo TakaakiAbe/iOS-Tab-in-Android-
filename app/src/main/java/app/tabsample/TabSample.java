@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 
 /**
- * @author Takaaki Abe
+ * @author Tanaka
  *
  */
 public class TabSample extends TabActivity {

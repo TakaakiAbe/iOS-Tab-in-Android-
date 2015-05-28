@@ -48,8 +48,4 @@ public class TabSample extends TabActivity {
 		spec.setContent(intent);
 		tabHost.addTab(spec);
 	}
-
-        private void removeTabSys311(){
-                //–‘«‚³‚¹‚Ä‚­‚ê‚æI
-        }
 }

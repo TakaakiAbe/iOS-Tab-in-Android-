@@ -48,4 +48,8 @@ public class TabSample extends TabActivity {
 		spec.setContent(intent);
 		tabHost.addTab(spec);
 	}
+	private void removeTabSys312()
+	{
+		//ここにタブを削除するプログラムを書く。メモリ増やしたい。
+	}
 }

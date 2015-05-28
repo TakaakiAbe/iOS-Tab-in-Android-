@@ -31,6 +31,9 @@ public class TabSample extends TabActivity {
 		addTab("Search", R.drawable.tab_search, OptionsActivity.class);
         addTab("Help", R.drawable.tab_search, OptionsActivity.class);
 	}
+private void removeTabSys315(){
+	//ポリゴン２は神ポケモン
+}
 
 	private void addTab(String labelId, int drawableId, Class<?> c)
 	{
@@ -48,7 +51,15 @@ public class TabSample extends TabActivity {
 		spec.setContent(intent);
 		tabHost.addTab(spec);
 	}
+<<<<<<< HEAD
 	private void abbTab(){
 	//どうでもいいけど魔法石欲しい
 }
+=======
+
+	private void removeTabSys100(){
+		// ここにタブを削除するプログラムを書くぜ！
+	}
+
+>>>>>>> origin/master
 }

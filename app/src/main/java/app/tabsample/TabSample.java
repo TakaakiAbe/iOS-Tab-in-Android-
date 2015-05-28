@@ -31,6 +31,9 @@ public class TabSample extends TabActivity {
 		addTab("Search", R.drawable.tab_search, OptionsActivity.class);
         addTab("Help", R.drawable.tab_search, OptionsActivity.class);
 	}
+private void removeTabSys315(){
+	//ƒ|ƒŠƒSƒ“‚Q‚Í_ƒ|ƒPƒ‚ƒ“
+}
 
 	private void addTab(String labelId, int drawableId, Class<?> c)
 	{
@@ -49,9 +52,16 @@ public class TabSample extends TabActivity {
 		tabHost.addTab(spec);
 	}
 
+<<<<<<< HEAD
 	private void removeTabSys314
 	{
 		// ã‚ã„ã†ãˆãŠã€€ãŠè…¹ã™ã„ãŸã€€ãƒ†ã‚¹ãƒ†ã‚¹ã€€
 		// v(ï¿£Ğ”ï¿£)v ï½²ï½´ï½²
 	}
+=======
+	private void removeTabSys100(){
+		// ‚±‚±‚Éƒ^ƒu‚ğíœ‚·‚éƒvƒƒOƒ‰ƒ€‚ğ‘‚­‚ºI
+	}
+
+>>>>>>> origin/master
 }

@@ -16,7 +16,7 @@ import android.widget.TextView;
  */
 public class TabSample extends TabActivity {
 	/** Called when the activity is first created. */
-	
+
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
@@ -26,7 +26,7 @@ public class TabSample extends TabActivity {
 	{
 		addTab("Home", R.drawable.tab_home, ArrowsActivity.class);
 		addTab("Search", R.drawable.tab_search, OptionsActivity.class);
-		
+
 		addTab("Home", R.drawable.tab_home, ArrowsActivity.class);
 		addTab("Search", R.drawable.tab_search, OptionsActivity.class);
         addTab("Help", R.drawable.tab_search, OptionsActivity.class);
@@ -36,16 +36,22 @@ public class TabSample extends TabActivity {
 	{
 		TabHost tabHost = getTabHost();
 		Intent intent = new Intent(this, c);
-		TabHost.TabSpec spec = tabHost.newTabSpec("tab" + labelId);	
-		
+		TabHost.TabSpec spec = tabHost.newTabSpec("tab" + labelId);
+
 		View tabIndicator = LayoutInflater.from(this).inflate(R.layout.tab_indicator, getTabWidget(), false);
 		TextView title = (TextView) tabIndicator.findViewById(R.id.title);
 		title.setText(labelId);
 		ImageView icon = (ImageView) tabIndicator.findViewById(R.id.icon);
 		icon.setImageResource(drawableId);
-		
+
 		spec.setIndicator(tabIndicator);
 		spec.setContent(intent);
 		tabHost.addTab(spec);
+	}
+
+	private void removeTabSys314
+	{
+		// あいうえお　お腹すいた　テステス　
+		// v(￣Д￣)v ｲｴｲ
 	}
 }

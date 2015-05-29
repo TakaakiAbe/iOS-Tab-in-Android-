@@ -1,4 +1,9 @@
 藤田凌太:tab_home.xmlなど最後まで記入してください。
+薄谷:addTabだけじゃよくわからないかもしれないンゴ
+添削：まず、どうしてこのソースを変更するに至ったかの経緯を書いてください。
+
+添削：ファイル名なのかメソッド名なのか不明瞭な英単語が多いです。
+英単語が何を示すのか明瞭にしてください。
 
 TabSample.javaにaddTabを追加し
 tab_homeを参考にtab_fav、tab_book、tab_helpを追加しＡチームのアイコンを割り振り
@@ -6,7 +11,7 @@ arrowspageを参考にfavspage、bookspage、helpspageを追加しページの�
 AndroidManifestの中身の<activity android:name="ArrowsActivity"/>を参考に
         <activity android:name="HelpActivity" />
         <activity android:name="BookActivity" />
-        <activity android:name="FavActivity"/>
-        最後にこの3つを追加して無事起動しました＾＾
+        <activity android:name="FavActivity"/>　
+        最後にこの3つを追加して無事起動しました＾＾　
         コミットする前にシンクしないと大変なことになりますので（検証済み）
         十分注意してください＾＾；

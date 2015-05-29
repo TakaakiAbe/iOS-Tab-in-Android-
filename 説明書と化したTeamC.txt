@@ -1,4 +1,10 @@
+添削：まず、どうしてこのソースを変更するに至ったかの経緯を書いてください。
+
 TabSample.javaにaddTabを追加し
+
+添削：ファイル名なのかメソッド名なのか不明瞭な英単語が多いです。
+英単語が何を示すのか明瞭にしてください。
+
 tab_homeを参考にtab_fav、tab_book、tab_helpを追加しＡチームのアイコンを割り振り
 arrowspageを参考にfavspage、bookspage、helpspageを追加しページの内容を書きました。
 AndroidManifestの中身の<activity android:name="ArrowsActivity"/>を参考に

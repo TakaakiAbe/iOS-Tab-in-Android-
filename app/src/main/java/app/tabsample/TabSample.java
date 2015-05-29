@@ -27,9 +27,9 @@ public class TabSample extends TabActivity {
 		addTab("Home", R.drawable.tab_home, ArrowsActivity.class);
 		addTab("Search", R.drawable.tab_search, OptionsActivity.class);
 
-		addTab("Home", R.drawable.tab_home, ArrowsActivity.class);
-		addTab("Search", R.drawable.tab_search, OptionsActivity.class);
-        	addTab("Help", R.drawable.tab_search, OptionsActivity.class);
+        addTab("Fav", R.drawable.tab_fav, FavActivity.class);
+        addTab("Book", R.drawable.tab_book, BookActivity.class);
+        addTab("Help", R.drawable.tab_search, OptionsActivity.class);
 	}
 
 	private void addTab(String labelId, int drawableId, Class<?> c)

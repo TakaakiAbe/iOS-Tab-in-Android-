@@ -2,7 +2,9 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 	<item android:left="@dimen/tab_space" android:right="@dimen/tab_space"> 
 		<shape android:shape="rectangle">
-
+			<gradient android:angle="-90" android:startColor="@color/tabMedium"
+				android:endColor="@color/tabDark" />
+		
 		</shape>
 	</item>
 	<!-- draw tab background -->
@@ -20,7 +22,8 @@
 				android:topRightRadius="@dimen/corner_radius"
 				/>
 
-			
+            <gradient android:angle="-90" android:startColor="#0000ff"
+                android:endColor="#0000ff" />
 		</shape>
 	</item>
 </layer-list>

@@ -1,11 +1,11 @@
-TabSample.javaにaddTabを追加し
+TabSample.javaにaddTabを追加し薄谷:addTabだけじゃよくわからないかもしれないンゴ
 tab_homeを参考にtab_fav、tab_book、tab_helpを追加しＡチームのアイコンを割り振り
 arrowspageを参考にfavspage、bookspage、helpspageを追加しページの内容を書きました。
 AndroidManifestの中身の<activity android:name="ArrowsActivity"/>を参考に
         <activity android:name="HelpActivity" />
         <activity android:name="BookActivity" />
-        <activity android:name="FavActivity"/>
-        最後にこの3つを追加して無事起動しました＾＾
+        <activity android:name="FavActivity"/>　
+        最後にこの3つを追加して無事起動しました＾＾　
         コミットする前にシンクしないと大変なことになりますので（検証済み）
         十分注意してください＾＾；
         

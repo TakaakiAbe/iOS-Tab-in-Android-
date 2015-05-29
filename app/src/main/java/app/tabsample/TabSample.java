@@ -29,7 +29,7 @@ public class TabSample extends TabActivity {
 
         addTab("Fav", R.drawable.tab_fav, FavActivity.class);
         addTab("Book", R.drawable.tab_book, BookActivity.class);
-        addTab("Help", R.drawable.tab_search, OptionsActivity.class);
+        addTab("Help", R.drawable.tab_help, HelpActivity.class);
 	}
 
 	private void addTab(String labelId, int drawableId, Class<?> c)

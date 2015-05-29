@@ -9,3 +9,4 @@ AndroidManifestの中身の<activity android:name="ArrowsActivity"/>を参考に
         コミットする前にシンクしないと大変なことになりますので（検証済み）
         十分注意してください＾＾；
         
+工藤:説明があっさり過ぎて少し分かりづらいかも。
